@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/calculator');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    border: 30px solid grey;
+    border-radius: 15px;
+}
+
+#pad {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+#displayUnit {
+    height: 120px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+}
+
+#displayMath, #display {
+    color: blue;
+}
+
+#display, #displayMath, #displaySolution {
+    font-size: 35px;
+    font-family: 'Calculator', sans-serif;
+}
+
+.numbers, .operators {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.zero {
+    height: 80px;
+    width: 170px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.zero, .numbers, #decimal {
+    background-color: lightseagreen;
+}
+
+.operators {
+    background-color: chocolate;
+}
+
+#clear, #backspace, #negativePositive {
+    background-color: lightblue;
+}
+
+
+#displaySolution{
+    color: green;
+    font-family: 'Calculator', sans-serif;
+                                                
+}
